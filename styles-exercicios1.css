@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e6e6e6;
+}
+
+header {
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgb(247, 247, 247);
+  flex-direction: column;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.exercices-container {
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.content-container {
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn-exercicio {
+  width: 30%;
+  height: 70px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #e6e6e6;
+  flex-direction: column;
+  border-radius: 10px;
+  text-align: center;
+}

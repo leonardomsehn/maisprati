@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e6e6e6;
+}
+
+header {
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgb(247, 247, 247);
+  flex-direction: column;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.btn-exercicio {
+  margin: 2px;
+}
+
+footer {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #e6e6e6;
+  flex-direction: column;
+  border-radius: 10px;
+  text-align: center;
+}
