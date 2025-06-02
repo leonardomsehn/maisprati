@@ -50,13 +50,29 @@ header {
   align-items: center;
 }
 
+.nav {
+  width: 30%;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 footer {
   width: 100%;
-  margin: 0 auto;
   margin-top: 20px;
   padding: 20px;
   background-color: #e6e6e6;
-  flex-direction: column;
-  border-radius: 10px;
+  flex-direction: row;
+  display: flex;
   text-align: center;
+  justify-content: center;
+  gap: 5px;
+  border-radius: 10px;
+}
+
+.footer-icon {
+  max-width: 20px;
 }
